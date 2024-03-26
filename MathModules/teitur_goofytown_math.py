@@ -1,5 +1,4 @@
 """
-
 Louie
 
 Functions:
@@ -15,7 +14,11 @@ Functions:
 #Nothing set in stone, :stars_in_eyes:
 
 def Add(x,y,GoofyTown=False):
-    return x+y
+    if not GoofyTown:
+        return x+y
+    else:
+        theresult = x+y
+        return theresult
 
 def Subtract(x,y,GoofyTown=False):
     return x-y
