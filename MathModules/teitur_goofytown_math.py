@@ -12,7 +12,7 @@ Functions:
 """
 """Nothing set in stone, :stars_in_eyes:"""
 
-import random, tkinter # An included library with Python install. 
+import random # An included library with Python install. 
 from tkinter import messagebox as mb  
 
 def Add(x,y,GoofyTown=False) -> int:
