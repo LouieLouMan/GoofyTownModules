@@ -13,11 +13,11 @@ Functions:
 
 #Nothing set in stone, :stars_in_eyes:
 
-def Add(x,y,GoofyTown=False):
+def Add(x,y,GoofyTown=False) -> int:
     if not GoofyTown:
         return x+y
     else:
-        theresult = x+y
+        theresult = x^y
         return theresult
 
 def Subtract(x,y,GoofyTown=False):
@@ -37,3 +37,6 @@ def Quotient(x,y,GoofyTown=False):
 
 def Exponent(x,y,GoofyTown=False):
     return x**y
+
+if __name__ == "__main__":
+    print("Testing, Testing, 123")

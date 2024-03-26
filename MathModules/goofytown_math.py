@@ -33,3 +33,6 @@ def Quotient(x,y,GoofyTown=False):
 
 def Exponent(x,y,GoofyTown=False):
     return x**y
+
+if __name__ == "__main__":
+    print("Testing, Testing, 123")
